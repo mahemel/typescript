@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
         "target": "esnext",
-        "outDir": "assets/js",
-        "rootDir": "assets/ts"
+        "outDir": "assets/js", //Output directory
+        "rootDir": "assets/ts", //root or source directory
+        "noEmitOnError": true //if there is any error, ts will not be compiled
     }
 }
